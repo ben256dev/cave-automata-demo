@@ -6,15 +6,6 @@
 #define LAND_PERCENTAGE 50
 #define MAP_SIZE_X 100
 #define MAP_SIZE_Y 50
-#define CELL_TOP_LEFT 0
-#define CELL_TOP 1
-#define CELL_TOP_RIGHT 2
-#define CELL_RIGHT 3
-#define CELL_BOTTOM_RIGHT 4
-#define CELL_BOTTOM 5
-#define CELL_BOTTOM_LEFT 6
-#define CELL_LEFT 7
-#define CELL_NEIGHBORS 8
 
 int map_index(int *map, int x, int y) {
     x = ((x % MAP_SIZE_X) + MAP_SIZE_X) % MAP_SIZE_X;
